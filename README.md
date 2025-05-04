@@ -48,7 +48,9 @@ On Windows (if you have git installed): ```sh run.sh```
 
 If none of these work, input all of these in the terminal manually:
 
-```python3 -m pip install -r requirements.txt```
+```python3 -m pip install -r requirements.txt``` to install the required packages
 
-```streamlit run app.py```
+and 
+
+```streamlit run app.py``` to launch the website.
 
