@@ -314,7 +314,7 @@ if st.session_state.submitted:
 
     if click:
         import FurtherAnal
-        test.main(prompt, uploaded_file)
+        FurtherAnal.main(prompt, uploaded_file)
         # st.session_state.prompt = ""
         # st.session_state.file = None
         # st.session_state.submitted = False
