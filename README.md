@@ -36,6 +36,15 @@ On Windows: You need to manually download and install from [LibreOffice Installe
 
 ---
 
+## For the API Key:
+
+Go to [Google Cloud Console](https://console.cloud.google.com/). Then create a new Project. Inside your project, go to the tab service accounts under IAM/ADMIN and create a Service account with the role of Owner of Vertex AI User. With this, generate the service key and name it as ```gemini-key.json```. Inside all the codes, you will see the line ```
+vertexai.init(project="gdg-hackathon-458610", location="")```, in the case of project="gdg-hackathon-458610", replace it with your own project id. 
+
+You need to authenticate the project with your account before running the main code.
+
+---
+
 ## We have created a bash script to run the code. Following is the instruction on how to run it:
 
 On Mac: ```bash run.sh```
@@ -54,3 +63,4 @@ and
 
 ```streamlit run app.py``` to launch the website.
 
+---
