@@ -1,5 +1,7 @@
 # AskDOC
-AI literature review assistant
+## Your AI literature review assistant
+
+AskDOC is an AI-powered tool designed to help users extract, search, and understand content from any files. Leveraging advanced machine learning models, Askdoc enables fast and efficient querying of document text, localisation of content, and identification of sources, offering an intuitive interface for easy document navigation. Perfect for anyone looking to analyse large documents quickly.
 
 #### Clone the repo:
 
